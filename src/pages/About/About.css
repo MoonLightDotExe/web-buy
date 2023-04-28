@@ -1,0 +1,23 @@
+.about-page {
+  position: absolute;
+  border-radius: 1rem;
+  border: 1px solid black;
+  width: 25vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 25rem;
+}
+
+.about-page h2 {
+  font-size: 2rem;
+  margin-top: 0;
+}
+
+p{
+  margin-left: 2rem;
+}

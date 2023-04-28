@@ -1,0 +1,14 @@
+html {
+  height: 100%;
+}
+
+.new {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 150vh;
+}
+
+.icon {
+  color: #e9e9e9;
+}

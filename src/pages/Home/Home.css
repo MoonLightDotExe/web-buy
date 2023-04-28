@@ -1,0 +1,16 @@
+.home {
+  height: 100vh;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: 18rem 18rem 18rem;
+  grid-template-rows: 25rem 25rem 25rem;
+  grid-row-gap: 2rem;
+  grid-column-gap: 7rem;
+  justify-content: center;
+}
+
+li {
+  list-style: none;
+}

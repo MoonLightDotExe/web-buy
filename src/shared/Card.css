@@ -1,0 +1,57 @@
+.card {
+  width: 18rem;
+  background-color: rgb(229, 229, 229);
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 25rem;
+}
+
+.card-logo-container {
+  height: 12rem;
+  background-color: #fff;
+  margin: 1.5rem;
+  border-radius: 1rem;
+}
+
+.card-logo {
+  width: 7rem;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card-body {
+  background-color: rgb(229, 229, 229);
+  position: relative;
+  height: 5rem;
+  border-radius: 1rem;
+}
+
+.card-title {
+  position: absolute;
+  top: -7rem;
+  left: 2rem;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+.card-text {
+  position: absolute;
+  top: -8.5rem;
+  left: 10rem;
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+.btns {
+  display: flex;
+  margin: 0.5rem;
+}
+
+.btn:active {
+  background-color: #008404;
+  transition: all 0.25s;
+}
